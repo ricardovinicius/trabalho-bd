@@ -23,7 +23,7 @@ Para poder tornar o projeto melhor foi construído uma aplicacao em java para re
 * Maven
 
 ### Comando para executar:
-´´´mvn exec:java´´´
+```mvn exec:java```
 
 ### O que ela irá fazer?
 1. Criar o banco
@@ -33,7 +33,7 @@ Para poder tornar o projeto melhor foi construído uma aplicacao em java para re
 ## Como visualizar o banco?
 ### Usando o SQLite
 Rode o comando:
-´´´sqlite /data/test.db´´´
+```sqlite /data/test.db```
 Ou utilize um visualizador de banco SQLite:
 1. SQLite Browser: https://sqlitebrowser.org/dl/ (Pessoalmente recomendo)
 2. SQLite Viewer: https://sqliteviewer.app/ (Opcao via navegador) 
