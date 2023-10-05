@@ -1,6 +1,11 @@
 # Aplicação de Banco de Dados
 Simulando um ambiente comercial de produtos relacionados ao _cardgame_ "Magic the Gathering" (MTG), através da modelagem de um Modelo de Entidade Relacionmento (MER), prosseguindo com um Modelo Lógico, normalizando as tabelas até a terceira forma normal (3FN), e aplicando estes em um modelo físico utilizando a _engine_ de banco de dados SQLite.
 
+Aluno: Ricardo Vinicius de Almeida Fernandes (22112863)
+Disciplina: Banco de Dados
+Professora: Maria Cristina Tenório Cavalcante Escarpini
+
+
 ## Modelo de Entidade Relacionamento
 ![draw drawio](https://github.com/ricardovinicius/trabalho-bd/assets/108153768/7c3e095c-7842-4cf9-8827-807d5a8fbd28)
 
