@@ -121,14 +121,14 @@ public class Main {
                 "valor_total REAL NOT NULL",
                 "data_compra TEXT NOT NULL",
                 "id_cliente TEXT NOT NULL",
-                "FOREIGN KEY (id_cliente) REFERENCES Cliente(id_cliente)");
+                "FOREIGN KEY (id_cliente) REFERENCES Cliente(cpf)");
 
         createNewTable("CompraDeCartaDeCliente",
                 "id_compra TEXT PRIMARY KEY",
                 "valor_total REAL NOT NULL",
                 "data_venda TEXT NOT NULL",
                 "id_cliente TEXT NOT NULL",
-                "FOREIGN KEY (id_cliente) REFERENCES Cliente(id_cliente)");
+                "FOREIGN KEY (id_cliente) REFERENCES Cliente(cpf)");
 
         createNewTable("ProdutoVendido",
                 "id_venda TEXT NOT NULL",
